@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #334155
+  );
+  color: white;
+}
+
+.main-title {
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+.subtitle {
+  color: #cbd5e1;
+}
+
+.calc-card {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,0.1);
+  min-height: 450px;
+  transition: all 0.3s ease;
+}
+
+.calc-card:hover {
+  transform: translateY(-8px);
+}
