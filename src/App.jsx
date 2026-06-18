@@ -1,4 +1,5 @@
 import "./styles/app.css";
+import CalculatorCard from "./components/CalculatorCard";
 
 function App() {
   return (
@@ -19,35 +20,17 @@ function App() {
       <div className="row">
 
         <div className="col-lg-6 mb-4">
-
-          <div className="calc-card p-4">
-
-            <h2 className="text-center mb-4">
-              ⚡ JavaScript
-            </h2>
-
-            <div style={{ height: "250px" }}>
-              Calculator
-            </div>
-
-          </div>
-
+          <CalculatorCard
+            language="JavaScript"
+            icon="⚡"
+          />
         </div>
 
         <div className="col-lg-6 mb-4">
-
-          <div className="calc-card p-4">
-
-            <h2 className="text-center mb-4">
-              🐍 Python
-            </h2>
-
-            <div style={{ height: "250px" }}>
-              Calculator
-            </div>
-
-          </div>
-
+          <CalculatorCard
+            language="Python"
+            icon="🐍"
+          />
         </div>
 
       </div>
